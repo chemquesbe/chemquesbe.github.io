@@ -66,9 +66,9 @@
 		//enemies
 				enemies.push(new Enemy(x=-7.5, z=-.5, v=.1, direction="x", range=7, rotation=0))
 		 		enemies.push(new Enemy(x=-4, z=6, v=.075, direction="z", range=5, rotation=270))
-		 		enemies.push(new Enemy(x=6, z=-1, v=.1, direction="x", range=5, rotation=-180))
+		 		enemies.push(new Enemy(x=2, z=-3, v=.1, direction="z", range=3, rotation=270))
 				enemies.push(new Enemy(x=-2, z=-13, v=.1, direction="z", range=6.5, rotation=90))
-				enemies.push(new Enemy(x=6, z=-16, v=.1, direction="x", range=9.5, rotation=-180))
+				enemies.push(new Enemy(x=4, z=-17, v=.1, direction="x", range=4, rotation=-180))
 				
 		//coins
 		coins.push(new Coin(x=7, z=6))
@@ -151,7 +151,7 @@
 		}
 		
 
-		text.setAttribute("value", `${Math.round(cameraPos.x)} , ${Math.round(cameraPos.z)}`)
+		//text.setAttribute("value", `${Math.round(cameraPos.x)} , ${Math.round(cameraPos.z)}`)
 
 		if (birdseye==true) {
 		    //position and rotate camera to a view from above
